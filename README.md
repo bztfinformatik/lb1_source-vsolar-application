@@ -13,12 +13,12 @@
 <p align="center">
   <img src="https://img.shields.io/github/commit-activity/m/bztfinformatik/lb1_source-vsolar-application?include_prereleases&style=for-the-badge" alt="Activity">  
   <a href="https://github.com/jvankocherhans/vSolar/pulls">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr//bztfinformatik/lb1_source-vsolar-application?style=for-the-badge">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/bztfinformatik/lb1_source-vsolar-application?style=for-the-badge">
   </a>
   <a href="https://github.com/jvankocherhans/vSolar/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues//bztfinformatik/lb1_source-vsolar-application?style=for-the-badge">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/bztfinformatik/lb1_source-vsolar-application?style=for-the-badge">
   </a>
-  <img src="https://img.shields.io/github/v/release//bztfinformatik/lb1_source-vsolar-application?include_prereleases&style=for-the-badge" alt="Release">
+  <img src="https://img.shields.io/github/v/release/bztfinformatik/lb1_source-vsolar-application?include_prereleases&style=for-the-badge" alt="Release">
 </p>
 
 ---
