@@ -17,7 +17,10 @@ public class VSolarENV {
     private String terraformService;
     private String ansibleService;
 
-    public VSolarENV(String user, String password, String vsphereServer, String apiToken, String terraformService, String ansibleService) {
+    /**
+     * Konstruktur um die vSolar-Enität zu erstellen
+     */
+    public VSolarENV() {
         this.user = user;
         this.password = password;
         this.vsphereServer = vsphereServer;

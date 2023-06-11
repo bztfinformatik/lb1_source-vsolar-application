@@ -1,0 +1,101 @@
+2023-06-11 18:59:53.913 [main] INFO  c.b.v.VsolarTerraformApplication - Starting VsolarTerraformApplication using Java 17.0.2 with PID 53068 (C:\Users\Jvan\Documents\projects\github\lb1_source-vsolar-application\src\vsolar-terraform\target\classes started by Jvan in C:\Users\Jvan\Documents\projects\github\lb1_source-vsolar-application\src\vsolar-terraform)
+2023-06-11 18:59:53.917 [main] INFO  c.b.v.VsolarTerraformApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-11 18:59:55.156 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-11 18:59:55.167 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-11 18:59:55.169 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-11 18:59:55.170 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-11 18:59:55.318 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-11 18:59:55.319 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1357 ms
+2023-06-11 18:59:55.814 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-11 18:59:55.855 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-11 18:59:55.866 [main] INFO  c.b.v.VsolarTerraformApplication - Started VsolarTerraformApplication in 2.234 seconds (process running for 2.712)
+2023-06-11 19:01:02.561 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-11 19:01:02.563 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-11 19:01:02.572 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-11 19:01:02.732 [http-nio-8080-exec-1] INFO  ch.bztf.vsolarterraform.Terraform - Executing Terraform command: terraform apply -auto-approve
+2023-06-11 19:21:04.809 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:21:30.503 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:21:40.776 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:21:49.074 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:23:33.809 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:24:43.504 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:26:46.617 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8080
+2023-06-11 19:27:10.013 [main] INFO  c.b.v.VsolarTerraformApplication - Starting VsolarTerraformApplication using Java 17.0.2 with PID 33716 (C:\Users\Jvan\Documents\projects\github\lb1_source-vsolar-application\src\vsolar-terraform\target\classes started by Jvan in C:\Users\Jvan\Documents\projects\github\lb1_source-vsolar-application\src\vsolar-terraform)
+2023-06-11 19:27:10.016 [main] INFO  c.b.v.VsolarTerraformApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-11 19:27:11.204 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-11 19:27:11.218 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-11 19:27:11.220 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-11 19:27:11.221 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-11 19:27:11.396 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-11 19:27:11.397 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1337 ms
+2023-06-11 19:27:11.804 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-11 19:27:11.831 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-11 19:27:11.842 [main] INFO  c.b.v.VsolarTerraformApplication - Started VsolarTerraformApplication in 2.09 seconds (process running for 2.52)
+2023-06-11 19:27:16.139 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8080
+2023-06-11 19:27:16.193 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-11 19:27:16.194 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-11 19:27:16.195 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-06-11 19:27:19.570 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8080
+2023-06-11 19:27:23.237 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8080
+2023-06-11 19:28:01.468 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:28:21.068 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:28:21.314 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:28:21.315 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:28:21.323 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:28:21.323 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:28:21.331 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:28:21.332 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:30:07.603 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:30:07.644 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:30:07.645 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:30:07.653 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:30:07.654 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:30:07.662 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:30:07.663 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:30:09.232 [main] INFO  ch.bztf.vsolarterraform.Terraform - Executing Terraform command: terraform apply
+2023-06-11 19:30:25.006 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:30:25.041 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:30:25.042 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:30:25.053 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:30:25.054 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:30:25.063 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:30:25.064 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:30:27.002 [main] INFO  ch.bztf.vsolarterraform.Terraform - Executing Terraform command: terraform plan
+2023-06-11 19:32:17.615 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:32:17.656 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:32:17.657 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:32:17.667 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:32:17.668 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:32:17.678 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:32:17.679 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:32:19.690 [main] INFO  ch.bztf.vsolarterraform.Terraform - Executing Terraform command: terraform plan
+2023-06-11 19:34:23.584 [main] INFO  c.b.v.VsolarTerraformApplication - Starting VsolarTerraformApplication using Java 17.0.2 with PID 21800 (C:\Users\Jvan\Documents\projects\github\lb1_source-vsolar-application\src\vsolar-terraform\target\classes started by Jvan in C:\Users\Jvan\Documents\projects\github\lb1_source-vsolar-application\src\vsolar-terraform)
+2023-06-11 19:34:23.591 [main] INFO  c.b.v.VsolarTerraformApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-11 19:34:24.972 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-11 19:34:24.983 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-11 19:34:24.985 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-11 19:34:24.986 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-11 19:34:25.102 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-11 19:34:25.103 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1442 ms
+2023-06-11 19:34:25.862 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-11 19:34:25.905 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-11 19:34:25.924 [main] INFO  c.b.v.VsolarTerraformApplication - Started VsolarTerraformApplication in 2.725 seconds (process running for 3.189)
+2023-06-11 19:35:07.515 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-11 19:35:07.515 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-11 19:35:07.518 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-06-11 19:35:07.647 [http-nio-8080-exec-4] INFO  c.b.v.TerraformController - Received configure request. VirtualMachine: VirtualMachine(vsphereUser=lol, vspherePassword=lol, vsphereServer=lol, vsphereDatacenter=VSOLAR, vsphereHost=m226b-esxi-p01.vsolar.net, vmDatastore=vStorage, vmCluster=cluster01, vmTemplate=ubuntusrv-template, vmNetwork=VM Network, vmName=leeeel, vmMemory=2048, vmCpu=4)
+2023-06-11 19:35:07.665 [http-nio-8080-exec-4] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:35:07.717 [http-nio-8080-exec-4] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:35:07.722 [http-nio-8080-exec-4] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:35:07.734 [http-nio-8080-exec-4] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:35:07.736 [http-nio-8080-exec-4] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:35:07.760 [http-nio-8080-exec-4] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:35:07.761 [http-nio-8080-exec-4] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:36:32.588 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:36:32.615 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:36:32.616 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:36:32.634 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:36:32.635 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Retrieving host connection from file: localhost:8082
+2023-06-11 19:36:32.641 [main] INFO  c.b.vsolarterraform.DatabaseHandler - Fetching credentials from MongoDB-Java-Service...
+2023-06-11 19:36:32.642 [main] INFO  ch.bztf.vsolarterraform.Terraform - Setting Terraform configuration...
+2023-06-11 19:36:33.755 [main] INFO  ch.bztf.vsolarterraform.Terraform - Executing Terraform command: terraform plan

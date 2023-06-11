@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #171717;
+}
